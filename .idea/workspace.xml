@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4c094f9-6b39-4620-8b25-93f765e75528" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/caesar_cypher/english_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caesar_cypher/language_detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one_time_pad/one_time_pad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vigenere_cryptosystem/VigenereCypher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caesar_cypher/caesar_cypher.py" beforeDir="false" afterPath="$PROJECT_DIR$/caesar_cypher/caesar_cypher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caesar_cypher/caesar_cypher_frequency_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/caesar_cypher/caesar_cypher_frequency_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/des/DES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,27 +31,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.VigenereCypher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.caesar_cypher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.caesar_cypher_frequency_analysis.executor&quot;: &quot;Run&quot;,
-    &quot;Python.language_detection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.one_time_pad.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jonat/Documents/Cryptography/cryptography&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.DES.executor": "Run",
+    "Python.VigenereCypher.executor": "Run",
+    "Python.caesar_cypher.executor": "Run",
+    "Python.caesar_cypher_frequency_analysis.executor": "Run",
+    "Python.language_detection.executor": "Run",
+    "Python.one_time_pad.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "development",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jonat/Documents/Cryptography/cryptography",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jonat\Documents\Cryptography\cryptography\caesar_cypher" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.one_time_pad">
+  <component name="RunManager" selected="Python.DES">
+    <configuration name="DES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cryptography" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/des" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/des/DES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="VigenereCypher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cryptography" />
       <option name="ENV_FILES" value="" />
@@ -92,28 +112,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caesar_cypher/caesar_cypher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="caesar_cypher_frequency_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cryptography" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/caesar_cypher" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caesar_cypher/caesar_cypher_frequency_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DES" />
         <item itemvalue="Python.one_time_pad" />
         <item itemvalue="Python.VigenereCypher" />
         <item itemvalue="Python.language_detection" />
         <item itemvalue="Python.caesar_cypher" />
-        <item itemvalue="Python.caesar_cypher_frequency_analysis" />
       </list>
     </recent_temporary>
   </component>
